@@ -12,6 +12,7 @@ This project utilizes a Raspberry Pi along with a GY-BME280 sensor to create a w
    - [Raspberry Pi 4 4GB](https://www.amazon.in/s?k=Raspberry+PI+4+4gb)
    - [Pi Camera Module](https://www.amazon.in/s?k=Raspberry+PI+5MP+Camera+Board+Module)
    - [GY-BME280 Sensor](https://robu.in/product/gy-bme280-5v-temperature-and-humidity-sensor/)
+   - [32GB sdcard](https://www.amazon.in/s?k=32gb+sd+card+class+10)
 
 ## Usage
 
