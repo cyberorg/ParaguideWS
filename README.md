@@ -4,7 +4,7 @@ This project utilizes a Raspberry Pi along with a GY-BME280 sensor to create a w
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/paraguidews.git`
+1. Clone this repository: `git clone https://github.com/cyberorg/paraguidews.git`
 2. Install the required dependencies:
    - [Adafruit_CircuitPython_BME280](https://github.com/adafruit/Adafruit_CircuitPython_BME280) library. Follow the installation instructions on the linked page.
 3. Configure the script with your API keys for pwsweather, Windy, and Weather Underground.
