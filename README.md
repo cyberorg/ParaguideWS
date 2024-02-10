@@ -22,4 +22,4 @@ This project utilizes a Raspberry Pi along with a GY-BME280 sensor to create a w
 - This project is based on the example code provided by Adafruit for the Adafruit_CircuitPython_BME280 library. More information can be found [here](https://github.com/adafruit/Adafruit_CircuitPython_BME280).
 - Special thanks to [ChatGPT](https://openai.com/) for assistance and guidance.
 
-
+![Pay for my beer](https://lh3.googleusercontent.com/pw/ABLVV85L02OXBQTlnN-L4L6FJxDEf30yOCbaM1mQ5xnsgpQSEYPX5P37mIOPHcO_CsIBi2ezfwGdWZdka3WQhLmCuSWCaqnEsYjJg6WY4H15EOoAuVaSdl8TwcrXBpWxSuoCACV6kbCNdvULpdXDcVON_hOlHw=w616-h855-s-no?authuser=0)
