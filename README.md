@@ -1,4 +1,4 @@
-# paraguidews - Paraguide Weather Station
+# ParaguideWS - Paraguide Weather Station
 
 This project utilizes a Raspberry Pi along with a GY-BME280 sensor to create a weather station. The script collects temperature, pressure, and humidity data from the sensor and uploads it to various weather platforms including pwsweather, Windy, and Weather Underground.
 
