@@ -8,6 +8,10 @@ This project utilizes a Raspberry Pi along with a GY-BME280 sensor to create a w
 2. Install the required dependencies:
    - [Adafruit_CircuitPython_BME280](https://github.com/adafruit/Adafruit_CircuitPython_BME280) library. Follow the installation instructions on the linked page.
 3. Configure the script with your API keys for pwsweather, Windy, and Weather Underground.
+4. Obtain the necessary hardware components:
+   - [Raspberry Pi 4 4GB](https://www.amazon.in/s?k=Raspberry+PI+4+4gb)
+   - [Pi Camera Module](https://www.amazon.in/s?k=Raspberry+PI+5MP+Camera+Board+Module)
+   - [GY-BME280 Sensor](https://robu.in/product/gy-bme280-5v-temperature-and-humidity-sensor/)
 
 ## Usage
 
