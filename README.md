@@ -18,7 +18,7 @@ This project utilizes a Raspberry Pi along with a GY-BME280 sensor to create a w
 
 1. Run the script using Python: `python paraguidews.py`
 2. View live data on the following platforms:
-   - [Paraguide Webcams](https://paraguide.in/webcams/)
+   - [ParaguideWS - Weather station website](https://ws.paraguide.in/)
    - [Weather Underground Dashboard](https://www.wunderground.com/dashboard/pws/IBAIJN1)
    - [Windy Station](https://www.windy.com/station/pws-f0d0c46a?31.012,76.708,8)
 
