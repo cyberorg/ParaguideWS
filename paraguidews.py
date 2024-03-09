@@ -39,9 +39,6 @@ salti = 1375
 # Pressure adjusted to sea level
 pressure_hpa = bme280.pressure * (1 - (0.0065 * salti / (bme280.temperature + 0.0065 * salti + 273.15))) ** -5.257
 
-# Convert temperature to Fahrenheit
-temperature_fahrenheit = (temperature_celsius * 9/5) + 32
-
 # Convert pressure to inches of mercury (inHg)
 pressure_inhg = pressure_hpa * 0.02953
 
