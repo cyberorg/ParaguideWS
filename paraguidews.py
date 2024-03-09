@@ -27,15 +27,35 @@ i2c = board.I2C()  # uses board.SCL and board.SDA
 bme280 = adafruit_bme280.Adafruit_BME280_I2C(i2c, address=0x76)
 bme280.sea_level_pressure = 866
 
-# Read temperature and pressure
+# Read temperature
 temperature_celsius = bme280.temperature
-pressure_hpa = bme280.pressure
+
+# Convert temperature to Fahrenheit
+temperature_fahrenheit = (temperature_celsius * 9/5) + 32
+
+#Station altitude in meters
+salti = 1375
+
+# Pressure adjusted to sea level
+pressure_hpa = bme280.pressure * (1 - (0.0065 * salti / (bme280.temperature + 0.0065 * salti + 273.15))) ** -5.257
 
 # Convert temperature to Fahrenheit
 temperature_fahrenheit = (temperature_celsius * 9/5) + 32
 
 # Convert pressure to inches of mercury (inHg)
 pressure_inhg = pressure_hpa * 0.02953
+
+# Calculate dew point in Celsius
+a = 17.27
+b = 237.7
+alpha = ((a * temperature_celsius) / (b + temperature_celsius)) + math.log(bme280.humidity / 100.0)
+dewpoint_celsius = (b * alpha) / (a - alpha)
+
+# corrected to measured pressure
+dew_point_corrected = dewpoint_celsius - ((0.66077 * (1.0 + (0.00115 * temperature_celsius))) * (1.0 + (0.48488 * math.log(bme280.pressure / 10))))
+
+# Convert dew point to Fahrenheit
+dewpoint_fahrenheit = (dew_point_corrected * 9/5) + 32
 
 # Calculate dew point in Celsius
 b = 17.62
